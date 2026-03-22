@@ -16,13 +16,13 @@ const LargeLayout = () => {
         </Hyperlink>
         <div className="min-vh-100 d-flex align-items-center">
           <div className={classNames({ 'large-yellow-line mr-n4.5': getConfig().SITE_NAME === 'edX' })} />
+          <img src="https://partners.rchealthservices.com/img/logo.svg" width="253" height="79" alt="RC Health Services - Learning" class="site-logo"></img>
           <h1
             className={classNames(
               'display-2 text-white mw-xs',
               { 'ml-6': getConfig().SITE_NAME !== 'edX' },
             )}
           >
-            <img src="./rc-edu-logo.png" alt="Logo" width="200" height="100"></img>
             {formatMessage(messages['start.learning'])}
             <div className="text-accent-a">
               {formatMessage(messages['with.site.name'], { siteName: getConfig().SITE_NAME })}
