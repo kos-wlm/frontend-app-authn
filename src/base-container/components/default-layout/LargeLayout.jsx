@@ -22,6 +22,7 @@ const LargeLayout = () => {
               { 'ml-6': getConfig().SITE_NAME !== 'edX' },
             )}
           >
+            <img src="./rc-edu-logo.png" alt="Logo" width="200" height="100"></img>
             {formatMessage(messages['start.learning'])}
             <div className="text-accent-a">
               {formatMessage(messages['with.site.name'], { siteName: getConfig().SITE_NAME })}

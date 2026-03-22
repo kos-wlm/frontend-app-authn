@@ -9,12 +9,12 @@ const messages = defineMessages({
   // Login labels
   'login.user.identity.label': {
     id: 'login.user.identity.label',
-    defaultMessage: 'Username or email 123',
+    defaultMessage: 'Username or email',
     description: 'Label for user identity field to enter either username or email to login',
   },
   'login.password.label': {
     id: 'login.password.label',
-    defaultMessage: 'Password 123',
+    defaultMessage: 'Password',
     description: 'Label for password field',
   },
   'sign.in.button': {
